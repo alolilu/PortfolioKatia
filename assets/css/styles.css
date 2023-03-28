@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;   
+    display: flex;
+    justify-content: center;
+    background-color: black !important;
+    background: linear-gradient(90deg, #ffffff 21px, #ffffff00 1%) center, linear-gradient(#ffffff 21px, #ffffff00 1%) center, #ffffff;
+	background-size: 22px 22px;
+}
+
+/* Page Home  */
+
+.backgroundImage{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/backgroundIMG.jpg);
+    height: 80vh;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    z-index: 0;
+    top: 0px;
+}
+
+/* Page Navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+    width: 80vw;
+    position: absolute !important;
+    top: 0px !important;
+    height: 10vh;
+    padding: 0px;
+}
+
+.KatiaLogo{
+    height: 41px;
+    width: 92px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1.5px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.KatiaLogo:hover{
+    background-color: rgba(0, 0, 255, 0.52);
+    color: rgb(0, 0, 0);
+    border: 1.5px solid rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+#divNavbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logoSpa{
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+#divNavbar ul li a{
+    height: auto;
+    font-size: 22px;
+    transition: 0.3s;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+#divNavbar ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+#divNavbar ul li a:hover{
+    transition: 0.3s;
+}
+
+#primary a{
+    height: auto;
+    font-size: 22px;
+    transition: 0.3s;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+}
+
+/* animation bouton navbar  */
+
+#primary{
+    position: absolute;
+    top: 0;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-left: 0px;
+}
+#primary li {
+    margin: 0 20px;
+    position: relative;
+}
+#primary ul{
+    padding-left: 0px !important;
+}
+#primary li a {
+    text-decoration: none;
+    display: block;
+    line-height: 1;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, blue, blue 50%, rgb(0, 0, 0) 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    transition: all 0.3s ease-in-out;
+}
+#primary li a:before {
+    display: block;
+    content: "";
+    width: 0;
+    height: 1.5px;
+    bottom: 5px;
+    left: 0;
+    bottom: -2px;
+    z-index: 0;
+    position: absolute;
+    background: blue;
+    transition: all 0.3s ease-in-out;
+}
+#primary li a:hover {
+    background-position: 0%;
+}
+#primary li a:hover:before {
+    width: 100%;
+}
+
+.titrePrincipal{
+    font-size: 10vh;
+    font-weight: 300;
+    margin-left: 275px;
+    position: relative;
+    margin-bottom: 0px;
+    color: rgb(241, 241, 241);
+    top: 200px;
+}
+
+/* SCROLLING */
+
+.scrolling{
+    position: relative;
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+    border-top: 2px solid rgba(0, 0, 0, 0.685);;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.685);;
+    padding-bottom: 0px !important;
+    display: flex;
+    top: 368px;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.scrolling p{
+    font-size: 3vh;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    color: rgba(0, 0, 0, 0.685);
+    transform: translate(100%);
+    animation: scrolling 20s linear infinite;
+    white-space: nowrap;
+}
+
+@keyframes scrolling {
+    0%{
+        transform: translate(0%);
+    }
+    100%{
+        transform: translate(-100%);
+    }
+}
+
+/* tablette */
+@media (max-width: 992px) { 
+    
+}
+
+/* telephone */
+@media (max-width: 768px){
+    
+}
