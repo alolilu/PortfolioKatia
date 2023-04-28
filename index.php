@@ -13,9 +13,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-    <title>Katia GASPAR</title>
-    <link rel="icon" href="sonImage">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Katia Gaspar</title>
+    <link rel="icon" href="assets/images/copine.png">
+    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KMNM4VDXDF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KMNM4VDXDF');
+</script>
 </head>
 <body>
 
@@ -24,9 +36,8 @@
 <?php include $page ?>
 
 <?php include "modules/footer.php"; ?>
-    
-<script type="text/javascript" src="assets/js/app.js"></script>
 
+<script type="text/javascript" src="../assets/js/app.js"></script>
 </body>
 </html>
 
@@ -46,3 +57,4 @@
 </script> -->
 
 <!-- Loader Page -->
+
