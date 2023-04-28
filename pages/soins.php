@@ -231,9 +231,13 @@
                 <a href="tel:+33622816161">06 22 81 61 61</a>
                 <a href="mailto:Katia.gaspar77390@gmail.com">Katia.gaspar77390@gmail.com</a>
                 <h6>Retrouvez-moi</h6>
-                <a id="aBizarre" style="line-height: 1.5vw;" href="">Pacificlub <br>64 Quai Maréchal Joffre<br>77000
-                    Melun</a>
+                <a id="aBizarre" style="line-height: 1.5vw;" href="">Pacificlub <br>64 Quai Maréchal Joffre<br>77000 Melun</a>
             </div>
+        </div>
+        <div class="row footerrow1" style="width: 100vw; text-align: center;">
+            <h6>Conception : <a href="https://www.linkedin.com/in/alexis-fredriksen-a666161b5/">Alexis FREDRIKSEN</a></h6>
+            <h6>Design : <a href="https://www.linkedin.com/in/agatheverasdonck/">Agathe VERASDONCK</a></h6>
+            <h6>© 2023</h6>
         </div>
     </div>
 </div>

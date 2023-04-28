@@ -109,7 +109,7 @@
                 </p>
             </div>
         </div>
-        <div class="row aboutrow" id="aboutLeftDisplay" style="background-color: white; !important">
+        <div class="row aboutrow" id="aboutLeftDisplay" style="background-color: white!important;">
             <div class="col-md-7">
                 <h3>Experiences Professionnelles</h3>
                 <div class="timeline">
@@ -203,6 +203,11 @@
                     <a id="aBizarre" style="line-height: 1.5vw;" href="">Pacificlub <br>64 Quai Maréchal Joffre<br>77000
                         Melun</a>
                 </div>
+            </div>
+            <div class="row footerrow1" style="width: 100vw; text-align: center;">
+                <h6>Conception : <a href="https://www.linkedin.com/in/alexis-fredriksen-a666161b5/">Alexis FREDRIKSEN</a></h6>
+                <h6>Design : <a href="https://www.linkedin.com/in/agatheverasdonck/">Agathe VERASDONCK</a></h6>
+                <h6>© 2023</h6>
             </div>
         </div>
     </div>
