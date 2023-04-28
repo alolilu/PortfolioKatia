@@ -181,7 +181,7 @@
             </div>
         </div>
         <div class="CV">
-            <a href="../assets/pdf/cv.pdf">Curriculum vitae</a>
+            <a href="../assets/PDF/CVkatiaGaspar.pdf">Curriculum vitae</a>
         </div>
         <div class="autreService1">
             <a href="<?= $routes['massage'] ?>">Massages</a>
